@@ -1,0 +1,148 @@
+module Base
+{
+	craftRecipe MakeVacuumPump
+	{
+		timedAction = Making,
+		Time = 200,
+		Tags = AnySurfaceCraft,
+		category = Miscellaneous,
+		inputs
+		{
+			item 1 [Base.TirePump],
+			item 1 [Base.Screwdriver] mode:keep,
+			item 1 [Base.DuctTape],
+		}
+		outputs
+		{
+			item 1 Base.VacuumPump,
+		}
+	}
+	craftRecipe MakeTirePump
+	{
+		timedAction = Making,
+		Time = 200,
+		Tags = AnySurfaceCraft,
+		category = Miscellaneous,
+		inputs
+		{
+			item 1 [Base.VacuumPump],
+			item 1 [Base.Screwdriver] mode:keep,
+			item 1 [Base.DuctTape],
+		}
+		outputs
+		{
+			item 1 Base.TirePump,
+		}
+	}
+
+	craftRecipe AssembleLightBulb
+	{
+		timedAction = Making,
+		Time = 90,
+		Tags = AnySurfaceCraft,
+		category = Electrical,
+		inputs
+		{
+			item 1 [Base.BlownGlassBulb],
+			item 1 [Base.BaseOfLightBulb],
+			item 1 [Base.Glue],
+			item 1 [Base.VacuumPump] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.LightBulb,
+		}
+		
+	}
+	
+	craftRecipe MakeGlassBulb
+	{
+		timedAction = Craft_Glassmaking,
+		Time = 120,
+		Tags = AnySurfaceCraft;Glassmaking,
+        SkillRequired = Glassmaking:2,
+        xpAward = Glassmaking:45,
+		category = Glassmaking,
+		inputs
+		{
+            item 1 tags[Pliers] mode:keep flags[MayDegradeLight],
+            item 1 [Base.GlassBlowingPipe] mode:keep,
+			item 1 [Base.CeramicCrucibleWithGlass],
+		}
+		outputs
+		{
+			item 1 Base.BlownGlassBulb,
+		}
+	}
+	
+	craftRecipe MakeBaseOfLightBulb
+	{
+		timedAction = MakingElectrical,
+		Time = 120,
+		Tags = AnySurfaceCraft,
+		SkillRequired = Electricity:3,
+        xpAward = Electricity:2,
+		category = Electrical,
+		inputs
+		{
+			item 1 [Base.Wire],
+			item 1 [Base.ElectricWire],
+			item 1 [Base.ScrapMetal],
+			item 1 [Base.Screwdriver] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.BaseOfLightBulb,
+		}
+		
+	}
+	
+	
+craftRecipe PaintLightBulb
+{
+    timedAction = Making,
+    Time = 20,
+    Tags = AnySurfaceCraft,
+    category = Electrical,
+    inputs
+    {
+        item 1 [Base.LightBulb],
+        item 1 tags[paintbrush] mode:keep,
+        item 1 [Base.PaintBlue;Base.PaintCyan;Base.PaintGreen;Base.PaintOrange;Base.PaintPink;Base.PaintPurple;Base.PaintRed;Base.PaintYellow] mappers[bulbColor] flags[MayDegradeLight],
+    }
+    outputs
+    {
+        item 1 mapper:bulbColor,
+    }
+    itemMapper bulbColor
+    {
+        Base.LightBulbBlue   = Base.PaintBlue,
+        Base.LightBulbCyan   = Base.PaintCyan,
+        Base.LightBulbGreen  = Base.PaintGreen,
+        Base.LightBulbOrange = Base.PaintOrange,
+        Base.LightBulbPink   = Base.PaintPink,
+        Base.LightBulbPurple = Base.PaintPurple,
+        Base.LightBulbRed    = Base.PaintRed,
+        Base.LightBulbYellow = Base.PaintYellow,
+    }
+}
+	
+craftRecipe CleanLightBulb
+{
+    timedAction = Making,
+    Time = 30,
+    Tags = AnySurfaceCraft,
+    category = Electrical,
+    inputs
+    {
+        item 1 [Base.LightBulbBlue;Base.LightBulbCyan;Base.LightBulbGreen;Base.LightBulbOrange;Base.LightBulbPink;Base.LightBulbPurple;Base.LightBulbRed;Base.LightBulbYellow],
+        item 1 [Base.CleaningLiquid2;Base.Disinfectant],
+        item 1 [Base.DishCloth;Base.RippedSheets] mode:keep,
+    }
+    outputs
+    {
+        item 1 Base.LightBulb,
+    }
+}
+
+}

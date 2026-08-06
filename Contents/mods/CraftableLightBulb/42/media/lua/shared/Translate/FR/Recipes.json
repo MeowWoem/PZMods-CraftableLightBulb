@@ -1,0 +1,9 @@
+{
+    "AssembleLightBulb": "Assembler une ampoule",
+	"MakeGlassBulb": "Souffler une ampoule en verre",
+	"MakeBaseOfLightBulb": "Fabriquer un culot d'ampoule",
+	"MakeVacuumPump": "Fabriquer une pompe à vide",
+	"MakeTirePump": "Fabriquer une pompe à pneu",
+	"PaintLightBulb": "Peindre une ampoule",
+	"CleanLightBulb": "Nettoyer une ampoule"
+}

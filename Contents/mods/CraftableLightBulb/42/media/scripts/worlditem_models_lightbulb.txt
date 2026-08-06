@@ -1,0 +1,16 @@
+module Base
+{
+	model BaseOfLightBulb
+	{
+		mesh = WorldItems/BaseOfLightBulb,
+		texture = WorldItems/LightBulb,
+		scale = 0.0045,
+	}
+	model BlownGlassBulb
+	{
+		mesh = WorldItems/BlownGlassBulb,
+		texture = WorldItems/LightBulb,
+		scale = 0.0045,
+	}
+	
+}

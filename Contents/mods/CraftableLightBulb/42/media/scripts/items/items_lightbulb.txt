@@ -1,0 +1,34 @@
+module Base
+{
+	
+	item BaseOfLightBulb
+	{
+		DisplayName = Light Bulb Base,
+		DisplayCategory = Electronics,
+        ItemType = base:normal,
+		Weight = 0.2,
+		Icon = BaseOfLightBulb,
+		WorldStaticModel = BaseOfLightBulb,
+	}
+	
+	item BlownGlassBulb
+	{
+		DisplayName = Blown Glass Bulb,
+		DisplayCategory = Electronics,
+        ItemType = base:normal,
+		Weight = 0.1,
+		Icon = BlownGlassBulb,
+		WorldStaticModel = BlownGlassBulb,
+	}
+	
+	item VacuumPump
+    {
+        DisplayCategory = Tool,
+        Weight	=	2,
+        ItemType = base:normal,
+        DisplayName	=	Vacuum Pump,
+        Icon	=	TirePump,
+        WorldStaticModel = TirePump,
+    }
+	
+}
