@@ -57,6 +57,11 @@ description=[*] 1 Screwdriver (kept)
 description=[*] 1 Duct Tape
 description=[/list]
 description=
+description=[h2]Credits[/h2]
+description=[b]Code & Design:[/b] Amenophis
+description=[b]Craftable Series Logo:[/b] Amenophis
+description=[b]Workshop Thumbnail:[/b] Amenophis
+description=
 description=[hr][/hr]
 description=[h2]Checkout my other mods[/h2]
 description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3493292424][img]https://images.steamusercontent.com/ugc/15384947468815531752/F81E7D02699E7CE196CD4F554B9232A1CEC749C0/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3778597373][img]https://images.steamusercontent.com/ugc/17600049449669150926/0868E028A0267D19A476BC720AFA1FB9B0ABBE4C/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3475536311][img]https://images.steamusercontent.com/ugc/12100275261491882697/33E295DD1100045F9B478FB11325E5D331695A42/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true[/img][/url]
