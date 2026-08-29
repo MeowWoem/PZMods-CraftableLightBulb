@@ -1,0 +1,49 @@
+[ v1.0.0 - 06.13.2025 ]
+Release
+[ ------ ]
+
+[ v1.1.0 - 06.15.2025 ]
+Creating a light bulb is now a multi-step process that involves both glassblowing and electrical work.
+
+Added:
+- New items : Blown Glass Bulb, Light Bulb Base and Vacuum Pump
+- New recipes : Make a Blown Glass Bulb, Make a Light Bulb Base, Make a Vacuum Pump from a Tire Pump, Assemble a Light Bulb, Revert a Vacuum Pump to a Tire Pump
+
+Changed:
+- Make a light bulb requires now Glassmaking 2 and Electricity 3 (instead of 6 in the previous version)
+[ ------ ]
+
+[ v1.1.1 - 08.01.2026 ]
+Added:
+- Added French Translation
+- New recipes for colored light bulbs
+[ ------ ]
+
+[ v1.1.2 - 08.05.2026 ]
+Fixed:
+- Changing the name of multiple files to avoid overriding by others mods
+[ ------ ]
+
+[ v1.1.3 - 08.06.2026 ]
+Changed:
+- New artwork
+[ ------ ]
+
+[ v1.1.4 - 08.06.2026 ]
+Changed:
+- Name rebranding : Craftable Light Bulb is now a part of Craftable Series
+[ ------ ]
+
+[ v1.1.5 - 08.15.2026 ]
+Changed:
+- New artwork 100% handcrafted
+[ ------ ]
+
+[ v1.1.6 - 08.29.2026 ]
+Added:
+- Support for Mod Alert and Update System
+
+Changed:
+- Cleaning scripts and remove unused files
+[ ------ ]
+
